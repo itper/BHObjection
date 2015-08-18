@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/chendi/Documents/develop/ios&#x5f00;&#x53d1;/testProject/BHTouchTest/BHTouchTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHDisplayLinkTest/BHDisplayLinkTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HBGCDTest/HBGCDTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIViewControllerTransition/UIViewControllerTransition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHCommonUtil/BHCommonUtil.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MemoryManagement/MemoryManagement.xcodeproj">
+   </FileRef>
+</Workspace>
