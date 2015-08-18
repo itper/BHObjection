@@ -22,7 +22,8 @@ Spring中通过 java 的标注,实现对 module 的注入,在 OC 中需要手写
 }
 
 - (void)configure{
-    [self bindClass:NSClassFromString(@"ViewControllerA") toProtocol:@protocol(ViewControllerAProtocol)];
+    [self bindClass:NSClassFromString(@"ViewControllerA") 
+    toProtocol:@protocol(ViewControllerAProtocol)];
 }
 </code></pre>
 ```
