@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BHObjection/BHObjection.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHSlideView/BHSlideView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHTest/BHTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHSocketServer/BHSocketServer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHSocket/BHSocket.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHCoreText/BHCoreText.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Runloop/Runloop.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:/Users/chendi/Documents/develop/ios&#x5f00;&#x53d1;/testProject/BHTouchTest/BHTouchTest.xcodeproj">
    </FileRef>
    <FileRef

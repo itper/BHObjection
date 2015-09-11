@@ -38,20 +38,21 @@
     return NSStringFromClass(self.class);
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSLog(@"<<<%@ began",self);
     if(NEEN_CALL_SUPER)[super touchesBegan:touches withEvent:event];
-    NSLog(@"%@ began",self);
+    NSLog(@"%@%@,,,%@%@",self.superview,self,self.nextResponder,@(self.nextResponder==self.superview));
 }
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
-    if(NEEN_CALL_SUPER)[super touchesCancelled:touches withEvent:event];
     NSLog(@"%@ cancelled",self);
+    if(NEEN_CALL_SUPER)[super touchesCancelled:touches withEvent:event];
 }
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
-    if(NEEN_CALL_SUPER)[super touchesEnded:touches withEvent:event];
     NSLog(@"%@ ended",self);
+    if(NEEN_CALL_SUPER)[super touchesEnded:touches withEvent:event];
 }
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-    if(NEEN_CALL_SUPER)[super touchesMoved:touches withEvent:event];
     NSLog(@"%@ move",self);
+    if(NEEN_CALL_SUPER)[super touchesMoved:touches withEvent:event];
 }
 
 

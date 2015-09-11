@@ -1,1 +1,2 @@
 pod 'Objection','1.4'
+pod ‘BHSlidePageView’,:podspec=>’BHSlidePageView.podspec’

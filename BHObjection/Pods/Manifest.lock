@@ -1,0 +1,22 @@
+PODS:
+  - BHSlidePageView (1.0.0)
+  - Objection (1.4)
+
+DEPENDENCIES:
+  - BHSlidePageView (from `BHSlidePageView.podspec`)
+  - Objection (= 1.4)
+
+EXTERNAL SOURCES:
+  BHSlidePageView:
+    :podspec: BHSlidePageView.podspec
+
+CHECKOUT OPTIONS:
+  BHSlidePageView:
+    :commit: 11d2b9809f2342f181a5473045c54634297fec7d
+    :git: git@github.com:itper/BHSlidePageView.git
+
+SPEC CHECKSUMS:
+  BHSlidePageView: d22ad62a21068b992ca72907cae20f40f95f4445
+  Objection: aa9875dbf1b121a077f7e13d504a6ed01816a7f1
+
+COCOAPODS: 0.38.2

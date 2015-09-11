@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BHSlidePageView.h"
 
 @interface ViewController : UIViewController
 

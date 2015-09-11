@@ -1,0 +1,15 @@
+{
+  "name": "BHSlidePageView",
+  "version": "1.0.0",
+  "summary": "slide page an reuse pageview",
+  "homepage": "http://www.binghekeji.com",
+  "authors": {
+    "itper": "itperchen@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:itper/BHSlidePageView.git",
+    "branch": "master"
+  },
+  "source_files": "BHSlideView/Classes/*.*",
+  "requires_arc": true
+}

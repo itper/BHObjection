@@ -14,6 +14,8 @@
 		540BBAF61B72FBFE003887A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BBAF51B72FBFE003887A8 /* Images.xcassets */; };
 		540BBAF91B72FBFE003887A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540BBAF71B72FBFE003887A8 /* LaunchScreen.xib */; };
 		540BBB051B72FBFE003887A8 /* RunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BBB041B72FBFE003887A8 /* RunloopTests.m */; };
+		540BBB4C1B7301FF003887A8 /* Thread1.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BBB4B1B7301FF003887A8 /* Thread1.m */; };
+		540BBB4E1B7307CE003887A8 /* libBHCommonUtilLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BBB4D1B7307CE003887A8 /* libBHCommonUtilLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		540BBAFE1B72FBFE003887A8 /* RunloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunloopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540BBB031B72FBFE003887A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		540BBB041B72FBFE003887A8 /* RunloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopTests.m; sourceTree = "<group>"; };
+		540BBB4A1B7301FF003887A8 /* Thread1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread1.h; sourceTree = "<group>"; };
+		540BBB4B1B7301FF003887A8 /* Thread1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thread1.m; sourceTree = "<group>"; };
+		540BBB4D1B7307CE003887A8 /* libBHCommonUtilLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBHCommonUtilLib.a; path = "../BHCommonUtil/build/Debug-iphoneos/libBHCommonUtilLib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540BBB4E1B7307CE003887A8 /* libBHCommonUtilLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		540BBADC1B72FBFE003887A8 = {
 			isa = PBXGroup;
 			children = (
+				540BBB4F1B730883003887A8 /* frameworks */,
 				540BBAE71B72FBFE003887A8 /* Runloop */,
 				540BBB011B72FBFE003887A8 /* RunloopTests */,
 				540BBAE61B72FBFE003887A8 /* Products */,
@@ -81,6 +88,7 @@
 		540BBAE71B72FBFE003887A8 /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
+				540BBB491B7301DE003887A8 /* thread */,
 				540BBAEC1B72FBFE003887A8 /* AppDelegate.h */,
 				540BBAED1B72FBFE003887A8 /* AppDelegate.m */,
 				540BBAEF1B72FBFE003887A8 /* ViewController.h */,
@@ -117,6 +125,23 @@
 				540BBB031B72FBFE003887A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		540BBB491B7301DE003887A8 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				540BBB4A1B7301FF003887A8 /* Thread1.h */,
+				540BBB4B1B7301FF003887A8 /* Thread1.m */,
+			);
+			name = thread;
+			sourceTree = "<group>";
+		};
+		540BBB4F1B730883003887A8 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540BBB4D1B7307CE003887A8 /* libBHCommonUtilLib.a */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				540BBAF11B72FBFE003887A8 /* ViewController.m in Sources */,
+				540BBB4C1B7301FF003887A8 /* Thread1.m in Sources */,
 				540BBAEE1B72FBFE003887A8 /* AppDelegate.m in Sources */,
 				540BBAEB1B72FBFE003887A8 /* main.m in Sources */,
 			);
@@ -351,7 +377,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chendi/Documents/develop/ios开发/testProject/BHCommonUtil/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../BHCommonUtil/**";
 			};
 			name = Debug;
 		};
@@ -361,7 +392,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chendi/Documents/develop/ios开发/testProject/BHCommonUtil/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../BHCommonUtil/**";
 			};
 			name = Release;
 		};
@@ -418,6 +454,7 @@
 				540BBB0A1B72FBFE003887A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		540BBB0B1B72FBFE003887A8 /* Build configuration list for PBXNativeTarget "RunloopTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +463,7 @@
 				540BBB0D1B72FBFE003887A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

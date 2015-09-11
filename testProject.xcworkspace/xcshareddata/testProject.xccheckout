@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>962D72D9-253C-4374-A4F3-EB03D9409A44</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
+		<string>github.com:itper/BHObjection.git</string>
+		<key>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</key>
+		<string>github.com:itper/BHObjection.git</string>
+		<key>A1695731D69D0238B0548A2EDD0A4B2261E8069F</key>
+		<string>git.oschina.net:itper/BHCommonUtil.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testProject.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
+		<string>..</string>
+		<key>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</key>
+		<string>..BHObjection/</string>
+		<key>A1695731D69D0238B0548A2EDD0A4B2261E8069F</key>
+		<string>..BHCommonUtil/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:itper/BHObjection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>751404157E3E4FFE90B30371F4445746C39C1CDC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1695731D69D0238B0548A2EDD0A4B2261E8069F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BHCommonUtil</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BHObjection</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>751404157E3E4FFE90B30371F4445746C39C1CDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

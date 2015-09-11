@@ -20,6 +20,8 @@
 		542152F01B70A14E00904379 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 542152EF1B70A14E00904379 /* Window.m */; };
 		542152F31B70AA4B00904379 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 542152F21B70AA4B00904379 /* View3.m */; };
 		542152F61B70AA5400904379 /* View4.m in Sources */ = {isa = PBXBuildFile; fileRef = 542152F51B70AA5400904379 /* View4.m */; };
+		5442A2EB1B72142000FA0E39 /* GestureRecognizer1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5442A2EA1B72142000FA0E39 /* GestureRecognizer1.m */; };
+		5442A2EE1B721C9100FA0E39 /* ScrollView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5442A2ED1B721C9100FA0E39 /* ScrollView1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		542152F21B70AA4B00904379 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
 		542152F41B70AA5400904379 /* View4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View4.h; sourceTree = "<group>"; };
 		542152F51B70AA5400904379 /* View4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View4.m; sourceTree = "<group>"; };
+		5442A2E91B72142000FA0E39 /* GestureRecognizer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizer1.h; sourceTree = "<group>"; };
+		5442A2EA1B72142000FA0E39 /* GestureRecognizer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizer1.m; sourceTree = "<group>"; };
+		5442A2EC1B721C9100FA0E39 /* ScrollView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView1.h; sourceTree = "<group>"; };
+		5442A2ED1B721C9100FA0E39 /* ScrollView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		542152BD1B70969C00904379 /* BHTouchTest */ = {
 			isa = PBXGroup;
 			children = (
+				5442A2E81B7213EC00FA0E39 /* gestures */,
 				542152E41B7098BA00904379 /* views */,
 				542152C21B70969C00904379 /* AppDelegate.h */,
 				542152C31B70969C00904379 /* AppDelegate.m */,
@@ -153,8 +160,19 @@
 				542152F21B70AA4B00904379 /* View3.m */,
 				542152F41B70AA5400904379 /* View4.h */,
 				542152F51B70AA5400904379 /* View4.m */,
+				5442A2EC1B721C9100FA0E39 /* ScrollView1.h */,
+				5442A2ED1B721C9100FA0E39 /* ScrollView1.m */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		5442A2E81B7213EC00FA0E39 /* gestures */ = {
+			isa = PBXGroup;
+			children = (
+				5442A2E91B72142000FA0E39 /* GestureRecognizer1.h */,
+				5442A2EA1B72142000FA0E39 /* GestureRecognizer1.m */,
+			);
+			name = gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,10 +278,12 @@
 				542152F61B70AA5400904379 /* View4.m in Sources */,
 				542152F31B70AA4B00904379 /* View3.m in Sources */,
 				542152C71B70969C00904379 /* ViewController.m in Sources */,
+				5442A2EE1B721C9100FA0E39 /* ScrollView1.m in Sources */,
 				542152F01B70A14E00904379 /* Window.m in Sources */,
 				542152C41B70969C00904379 /* AppDelegate.m in Sources */,
 				542152EA1B70994100904379 /* BaseView.m in Sources */,
 				542152ED1B709BA800904379 /* View2.m in Sources */,
+				5442A2EB1B72142000FA0E39 /* GestureRecognizer1.m in Sources */,
 				542152E71B7098D000904379 /* View1.m in Sources */,
 				542152C11B70969C00904379 /* main.m in Sources */,
 			);
@@ -462,6 +482,7 @@
 				542152E01B70969C00904379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542152E11B70969C00904379 /* Build configuration list for PBXNativeTarget "BHTouchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +491,7 @@
 				542152E31B70969C00904379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    CTView *view = [[CTView alloc] init];
+    
+    view.frame = CGRectMake(0, 0, 100, 100);
+    [self.view addSubview:view];
+    view.backgroundColor = [UIColor yellowColor]    ;
 }
 
 - (void)didReceiveMemoryWarning {

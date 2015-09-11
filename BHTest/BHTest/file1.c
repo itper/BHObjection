@@ -7,3 +7,12 @@
 //
 
 #include "file1.h"
+
+static int A;
+static int power(int n){
+    int i,y = 1;
+    for (i = 1; i<10; i++) {
+        y*=A;
+    }
+    return y;
+}

@@ -10,12 +10,18 @@
 
 @implementation ScrollView1
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(BOOL)touchesShouldBegin:(NSSet *)touches withEvent:(UIEvent *)event inContentView:(UIView *)view{
+    NSLog(@"%@",@"touchs should begin");
+//    return [super touchesShouldBegin:touches withEvent:event inContentView:view];
+    return  YES ;
 }
-*/
-
+-(BOOL)touchesShouldCancelInContentView:(UIView *)view{
+    NSLog(@"touch cancel in content view");
+//    return [super touchesShouldCancelInContentView:view];
+    return YES;
+}
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSLog(@"next responder %@",self.nextResponder);
+    NSLog(@"...on touch began");
+}
 @end
