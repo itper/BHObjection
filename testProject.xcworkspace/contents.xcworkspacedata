@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BHMasonry/BHMasonry.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHBluetooth(&#x8054;&#x7cfb;&#x84dd;&#x7259;&#x7684;&#x4f7f;&#x7528;)/BHBluetooth(&#x8054;&#x7cfb;&#x84dd;&#x7259;&#x7684;&#x4f7f;&#x7528;).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHViewTest(&#x7ec3;&#x4e60;View&#x7684;&#x4f7f;&#x7528;)/BHViewTest(&#x7ec3;&#x4e60;View&#x7684;&#x4f7f;&#x7528;).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/chendi/Documents/develop/ios&#x5f00;&#x53d1;/testProject/BHHowToUseArchiveLib(a&#x5e93;)/BHHowToUseArchiveLib(a&#x5e93;).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHAutolayout/BHAutolayout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHCollectionView/BHCollectionView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHUIKitDynamics/BHUIKitDynamics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHToZero/BHToZero.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHRuntime/BHRuntime.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BHObjection/BHObjection.xcodeproj">
    </FileRef>
    <FileRef

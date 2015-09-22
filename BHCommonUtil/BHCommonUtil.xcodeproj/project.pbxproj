@@ -20,6 +20,14 @@
 		54B2F0ED1B6633EB00A046F4 /* libBHCommonUtilLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B2F0E21B6633EB00A046F4 /* libBHCommonUtilLib.a */; };
 		54B2F0FD1B66391000A046F4 /* BHUICommonUtil.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 54B2F0DB1B66332E00A046F4 /* BHUICommonUtil.h */; };
 		54B2F0FE1B66391400A046F4 /* BHUICommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2F0DC1B66332E00A046F4 /* BHUICommonUtil.m */; };
+		54EC135A1BA7F517004A4CB0 /* BHCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13591BA7F517004A4CB0 /* BHCommonTableViewController.m */; };
+		54EC135B1BA7F517004A4CB0 /* BHCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13591BA7F517004A4CB0 /* BHCommonTableViewController.m */; };
+		54EC13941BA7FCAA004A4CB0 /* BHCommonUtilTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13931BA7FCAA004A4CB0 /* BHCommonUtilTestController.m */; };
+		54EC13951BA7FCAA004A4CB0 /* BHCommonUtilTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13931BA7FCAA004A4CB0 /* BHCommonUtilTestController.m */; };
+		54EC13981BA7FE00004A4CB0 /* BHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13971BA7FE00004A4CB0 /* BHBaseViewController.m */; };
+		54EC13991BA7FE00004A4CB0 /* BHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13971BA7FE00004A4CB0 /* BHBaseViewController.m */; };
+		54EC139C1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC139B1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m */; };
+		54EC139D1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC139B1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +83,14 @@
 		54B2F0E61B6633EB00A046F4 /* BHCommonUtilLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHCommonUtilLib.m; sourceTree = "<group>"; };
 		54B2F0EC1B6633EB00A046F4 /* BHCommonUtilLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHCommonUtilLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B2F0F21B6633EC00A046F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EC13581BA7F517004A4CB0 /* BHCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommonTableViewController.h; sourceTree = "<group>"; };
+		54EC13591BA7F517004A4CB0 /* BHCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHCommonTableViewController.m; sourceTree = "<group>"; };
+		54EC13921BA7FCAA004A4CB0 /* BHCommonUtilTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommonUtilTestController.h; sourceTree = "<group>"; };
+		54EC13931BA7FCAA004A4CB0 /* BHCommonUtilTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHCommonUtilTestController.m; sourceTree = "<group>"; };
+		54EC13961BA7FE00004A4CB0 /* BHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBaseViewController.h; sourceTree = "<group>"; };
+		54EC13971BA7FE00004A4CB0 /* BHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBaseViewController.m; sourceTree = "<group>"; };
+		54EC139A1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BHButtonTestCategory+UIButton.h"; sourceTree = "<group>"; };
+		54EC139B1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BHButtonTestCategory+UIButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +151,8 @@
 		54B2F0B41B6632E200A046F4 /* BHCommonUtil */ = {
 			isa = PBXGroup;
 			children = (
+				54EC13581BA7F517004A4CB0 /* BHCommonTableViewController.h */,
+				54EC13591BA7F517004A4CB0 /* BHCommonTableViewController.m */,
 				54B2F0B91B6632E200A046F4 /* AppDelegate.h */,
 				54B2F0BA1B6632E200A046F4 /* AppDelegate.m */,
 				54B2F0BC1B6632E200A046F4 /* ViewController.h */,
@@ -145,6 +163,12 @@
 				54B2F0B51B6632E200A046F4 /* Supporting Files */,
 				54B2F0DB1B66332E00A046F4 /* BHUICommonUtil.h */,
 				54B2F0DC1B66332E00A046F4 /* BHUICommonUtil.m */,
+				54EC13921BA7FCAA004A4CB0 /* BHCommonUtilTestController.h */,
+				54EC13931BA7FCAA004A4CB0 /* BHCommonUtilTestController.m */,
+				54EC13961BA7FE00004A4CB0 /* BHBaseViewController.h */,
+				54EC13971BA7FE00004A4CB0 /* BHBaseViewController.m */,
+				54EC139A1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.h */,
+				54EC139B1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m */,
 			);
 			path = BHCommonUtil;
 			sourceTree = "<group>";
@@ -352,7 +376,11 @@
 			files = (
 				54B2F0BE1B6632E200A046F4 /* ViewController.m in Sources */,
 				54B2F0BB1B6632E200A046F4 /* AppDelegate.m in Sources */,
+				54EC13941BA7FCAA004A4CB0 /* BHCommonUtilTestController.m in Sources */,
+				54EC135A1BA7F517004A4CB0 /* BHCommonTableViewController.m in Sources */,
 				54B2F0DD1B66332E00A046F4 /* BHUICommonUtil.m in Sources */,
+				54EC139C1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m in Sources */,
+				54EC13981BA7FE00004A4CB0 /* BHBaseViewController.m in Sources */,
 				54B2F0B81B6632E200A046F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,8 +397,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC13951BA7FCAA004A4CB0 /* BHCommonUtilTestController.m in Sources */,
 				54B2F0FE1B66391400A046F4 /* BHUICommonUtil.m in Sources */,
 				54B2F0E71B6633EB00A046F4 /* BHCommonUtilLib.m in Sources */,
+				54EC139D1BA7FF0A004A4CB0 /* BHButtonTestCategory+UIButton.m in Sources */,
+				54EC135B1BA7F517004A4CB0 /* BHCommonTableViewController.m in Sources */,
+				54EC13991BA7FE00004A4CB0 /* BHBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +655,7 @@
 				54B2F0D71B6632E300A046F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B2F0D81B6632E300A046F4 /* Build configuration list for PBXNativeTarget "BHCommonUtilTests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +664,7 @@
 				54B2F0DA1B6632E300A046F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B2F0F31B6633EC00A046F4 /* Build configuration list for PBXNativeTarget "BHCommonUtilLib" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +673,7 @@
 				54B2F0F51B6633EC00A046F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B2F0F61B6633EC00A046F4 /* Build configuration list for PBXNativeTarget "BHCommonUtilLibTests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +682,7 @@
 				54B2F0F81B6633EC00A046F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

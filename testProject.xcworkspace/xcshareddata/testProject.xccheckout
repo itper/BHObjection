@@ -12,6 +12,8 @@
 	<dict>
 		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
 		<string>github.com:itper/BHObjection.git</string>
+		<key>826B5D35F6F165F05DA58CED0EF3015E40501F17</key>
+		<string>github.com:itper/BHSlidePageView.git</string>
 		<key>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</key>
 		<string>github.com:itper/BHObjection.git</string>
 		<key>A1695731D69D0238B0548A2EDD0A4B2261E8069F</key>
@@ -23,10 +25,12 @@
 	<dict>
 		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
 		<string>..</string>
+		<key>826B5D35F6F165F05DA58CED0EF3015E40501F17</key>
+		<string>../BHSlideView/</string>
 		<key>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</key>
-		<string>..BHObjection/</string>
+		<string>..BHObjection</string>
 		<key>A1695731D69D0238B0548A2EDD0A4B2261E8069F</key>
-		<string>..BHCommonUtil/</string>
+		<string>..BHCommonUtil</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:itper/BHObjection.git</string>
@@ -40,17 +44,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A1695731D69D0238B0548A2EDD0A4B2261E8069F</string>
+			<string>826B5D35F6F165F05DA58CED0EF3015E40501F17</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BHCommonUtil</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</string>
-			<key>IDESourceControlWCCName</key>
-			<string>BHObjection</string>
+			<string>BHSlideView</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -59,6 +55,22 @@
 			<string>751404157E3E4FFE90B30371F4445746C39C1CDC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>testProject</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1695731D69D0238B0548A2EDD0A4B2261E8069F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testProjectBHCommonUtil</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CF64C00FDBDC4FA99CC6821FA6F405CD53E21B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testProjectBHObjection</string>
 		</dict>
 	</array>
 </dict>
