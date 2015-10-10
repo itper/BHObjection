@@ -15,7 +15,9 @@
 @property (nonatomic,assign)NSInteger *tag;
 @end
 
-@implementation BHGreaterThanOrEqualsToController
+@implementation BHGreaterThanOrEqualsToController{
+    NSArray *friend;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,6 +27,9 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    self->friend = [NSMutableArray array];
+    BHGreaterThanOrEqualsToController *controller;
+    controller->friend = [NSArray array];
     // Dispose of any resources that can be recreated.
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

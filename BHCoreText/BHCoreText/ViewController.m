@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BHView.h"
 
 @interface ViewController ()
 
@@ -16,16 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CTView *view = [[CTView alloc] init];
-    
-    view.frame = CGRectMake(0, 0, 100, 100);
+    BHView *view = [[BHView alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view];
-    view.backgroundColor = [UIColor yellowColor]    ;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

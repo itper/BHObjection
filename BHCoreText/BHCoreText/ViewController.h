@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CTView.h"
 
 @interface ViewController : UIViewController
 

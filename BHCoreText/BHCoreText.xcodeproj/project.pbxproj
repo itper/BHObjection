@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54183FFF1BC7CD0A00EDF6F1 /* BHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54183FFE1BC7CD0A00EDF6F1 /* BHView.m */; settings = {ASSET_TAGS = (); }; };
 		54DBEF581B74AB5300D19646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEF571B74AB5300D19646 /* main.m */; };
 		54DBEF5B1B74AB5300D19646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEF5A1B74AB5300D19646 /* AppDelegate.m */; };
 		54DBEF5E1B74AB5300D19646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEF5D1B74AB5300D19646 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		54DBEF631B74AB5300D19646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DBEF621B74AB5300D19646 /* Images.xcassets */; };
 		54DBEF661B74AB5300D19646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DBEF641B74AB5300D19646 /* LaunchScreen.xib */; };
 		54DBEF721B74AB5300D19646 /* BHCoreTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEF711B74AB5300D19646 /* BHCoreTextTests.m */; };
-		54DBEF7E1B74AB7600D19646 /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEF7D1B74AB7600D19646 /* CTView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54183FFD1BC7CD0A00EDF6F1 /* BHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHView.h; sourceTree = "<group>"; };
+		54183FFE1BC7CD0A00EDF6F1 /* BHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHView.m; sourceTree = "<group>"; };
 		54DBEF521B74AB5300D19646 /* BHCoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHCoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DBEF561B74AB5300D19646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DBEF571B74AB5300D19646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		54DBEF6B1B74AB5300D19646 /* BHCoreTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHCoreTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DBEF701B74AB5300D19646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DBEF711B74AB5300D19646 /* BHCoreTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHCoreTextTests.m; sourceTree = "<group>"; };
-		54DBEF7C1B74AB7600D19646 /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
-		54DBEF7D1B74AB7600D19646 /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,8 @@
 		54DBEF541B74AB5300D19646 /* BHCoreText */ = {
 			isa = PBXGroup;
 			children = (
-				54DBEF7B1B74AB6200D19646 /* views */,
+				54183FFD1BC7CD0A00EDF6F1 /* BHView.h */,
+				54183FFE1BC7CD0A00EDF6F1 /* BHView.m */,
 				54DBEF591B74AB5300D19646 /* AppDelegate.h */,
 				54DBEF5A1B74AB5300D19646 /* AppDelegate.m */,
 				54DBEF5C1B74AB5300D19646 /* ViewController.h */,
@@ -121,15 +122,6 @@
 				54DBEF701B74AB5300D19646 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		54DBEF7B1B74AB6200D19646 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				54DBEF7C1B74AB7600D19646 /* CTView.h */,
-				54DBEF7D1B74AB7600D19646 /* CTView.m */,
-			);
-			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54183FFF1BC7CD0A00EDF6F1 /* BHView.m in Sources */,
 				54DBEF5E1B74AB5300D19646 /* ViewController.m in Sources */,
-				54DBEF7E1B74AB7600D19646 /* CTView.m in Sources */,
 				54DBEF5B1B74AB5300D19646 /* AppDelegate.m in Sources */,
 				54DBEF581B74AB5300D19646 /* main.m in Sources */,
 			);
@@ -432,6 +424,7 @@
 				54DBEF771B74AB5300D19646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DBEF781B74AB5300D19646 /* Build configuration list for PBXNativeTarget "BHCoreTextTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +433,7 @@
 				54DBEF7A1B74AB5300D19646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

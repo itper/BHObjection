@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BHCoreFoundation/BHCoreFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHBlock/BHBlock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHIMP/BHIMP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHTestSelector(&#x5982;&#x4f55;&#x5f15;&#x7528;&#x7684;)/BHTestSelector(&#x5982;&#x4f55;&#x5f15;&#x7528;&#x7684;).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHJavaScript/BHJavaScript.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BHCoreData/BHCoreData.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BHMasonry/BHMasonry.xcodeproj">
    </FileRef>
    <FileRef
